@@ -10,8 +10,7 @@
 // **********************************************************************
 package kata;
 
-import static org.junit.Assert.*;
-
+import org.junit.Assert;
 import org.junit.Test;
 
 public class PokerTest
@@ -20,61 +19,61 @@ public class PokerTest
     @Test
     public void cartaAlta_deveRetornaMaiorValor() 
     {
-    		fail("Not yet implemented");
+    	 	Assert.fail("Not yet implemented");
     }
     
     @Test
     public void par_deveRetornaDuasCartasMesmoValor() 
     {
-    		fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void doisPares_deveRetornaDoisParesDiferentes() 
     {
-    		fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void trinca_deveRetornaTresCartasMesmoValorEDuasValoresDiferentes() 
     {
-    		fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void straight_deveRetornarTodasAsCartasComValoresConsecutivos()
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void flush_deveRetornarTodasAsCartasComMesmoNaipe()
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void fullHouse_deveRetornarUmaTrincaEUmPar()
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void quadra_deveRetornarQuatroCartasMesmoValor()
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void straightFlush_deveRetornarTodasCartasConsecutivasEMesmoNaipe()
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void royalFlush_deveRetornarSequencia10ValeteDamaReisAsDoMesmoNaipe()
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     /*
@@ -83,7 +82,7 @@ public class PokerTest
     @Test
     public void ordenacaoCartas_deveRetornarNaOrdemCrescente() 
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     /*
@@ -92,13 +91,13 @@ public class PokerTest
     @Test
     public void naipes_deveRetornarOuroCopasEspadaPaus() 
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
     
     @Test
     public void jogadresMesmaMao_deveRetornarVencedorComCartasDeMaiorValor() 
     {
-        fail("Not yet implemented");
+    		Assert.fail("Not yet implemented");
     }
 
 }
